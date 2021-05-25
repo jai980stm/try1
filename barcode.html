@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Simple barcode scan result web page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />  
+</head>
+<body>
+    <form method="post" action="process_barcode_scanresult.aspx" id="form1">
+        <div>
+            <table>
+                <tr><td ><strong>Scan to Web Sample</strong></td></tr>
+                <tr><td ><input name="txt1" type="text" id="txt1" autofocus /></td></tr>
+				<a href="bwstw://startscanner">Link to start scanner</a>
+                <tr><td><input type="submit" name="btnSubmit" value="Submit" id="btnSubmit" /></td></tr>
+            </table>
+        </div>
+</body>
+</html>
